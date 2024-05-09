@@ -155,7 +155,7 @@ def generate_keyboard(user_id, hide_buttons=False):
             else:
                 keyboard.add(button1)
         
-        url_button = InlineKeyboardButton("ℙ𝕌ℝℂℍ𝔸𝕊𝔼 𝔸ℂℂ𝔼𝕊𝕊", url="https://t.me/RLSilence")
+        url_button = InlineKeyboardButton("ℙ𝕌ℝℂℍ𝔸𝕊𝔼 𝔸ℂℂ𝔼𝕊𝕊", url="https://t.me/al4nd_uk")
         keyboard.add(url_button)
     return keyboard
 @bot.callback_query_handler(func=lambda call: True)
